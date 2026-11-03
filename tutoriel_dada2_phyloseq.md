@@ -1,5 +1,7 @@
 Tutoriel DADA2 et Phyloseq
 ================
+Mehri Sana
+Université Bretagne Occidentale ,Master MFA
 
 Ce document suit le tutoriel DADA2 appliqué au jeu de données MiSeq SOP
 (séquençage de l’ARNr 16S). Il va des lectures brutes (FASTQ) jusqu’à
@@ -793,38 +795,36 @@ ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")
 ```
 
     ## Run 0 stress 0.08043117 
-    ## Run 1 stress 0.08043117 
-    ## ... Procrustes: rmse 3.858377e-06  max resid 1.03928e-05 
-    ## ... Similar to previous best
-    ## Run 2 stress 0.08076337 
-    ## ... Procrustes: rmse 0.0105102  max resid 0.03234787 
-    ## Run 3 stress 0.08076337 
-    ## ... Procrustes: rmse 0.01049238  max resid 0.03228999 
-    ## Run 4 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01055531  max resid 0.03249523 
-    ## Run 5 stress 0.08076336 
-    ## ... Procrustes: rmse 0.01048326  max resid 0.03226004 
-    ## Run 6 stress 0.08076341 
-    ## ... Procrustes: rmse 0.0105803  max resid 0.03257651 
-    ## Run 7 stress 0.08616061 
-    ## Run 8 stress 0.09477229 
-    ## Run 9 stress 0.1212044 
-    ## Run 10 stress 0.08616061 
-    ## Run 11 stress 0.08076336 
-    ## ... Procrustes: rmse 0.01048725  max resid 0.03227288 
-    ## Run 12 stress 0.08043116 
+    ## Run 1 stress 0.08616061 
+    ## Run 2 stress 0.08043117 
     ## ... New best solution
-    ## ... Procrustes: rmse 2.22417e-06  max resid 5.125337e-06 
+    ## ... Procrustes: rmse 7.958275e-07  max resid 1.829642e-06 
     ## ... Similar to previous best
-    ## Run 13 stress 0.09477204 
-    ## Run 14 stress 0.1212044 
-    ## Run 15 stress 0.1274325 
-    ## Run 16 stress 0.09477211 
-    ## Run 17 stress 0.09477172 
-    ## Run 18 stress 0.1212044 
-    ## Run 19 stress 0.1432848 
-    ## Run 20 stress 0.08043116 
-    ## ... Procrustes: rmse 1.792842e-06  max resid 4.956046e-06 
+    ## Run 3 stress 0.08616061 
+    ## Run 4 stress 0.08076336 
+    ## ... Procrustes: rmse 0.01049075  max resid 0.0322846 
+    ## Run 5 stress 0.09477207 
+    ## Run 6 stress 0.08616061 
+    ## Run 7 stress 0.08616061 
+    ## Run 8 stress 0.1212044 
+    ## Run 9 stress 0.09477216 
+    ## Run 10 stress 0.0807634 
+    ## ... Procrustes: rmse 0.01056036  max resid 0.03251142 
+    ## Run 11 stress 0.09477191 
+    ## Run 12 stress 0.1358137 
+    ## Run 13 stress 0.09477196 
+    ## Run 14 stress 0.08616061 
+    ## Run 15 stress 0.08076337 
+    ## ... Procrustes: rmse 0.0105125  max resid 0.03235548 
+    ## Run 16 stress 0.0947718 
+    ## Run 17 stress 0.08043117 
+    ## ... New best solution
+    ## ... Procrustes: rmse 2.646021e-06  max resid 6.663804e-06 
+    ## ... Similar to previous best
+    ## Run 18 stress 0.08616061 
+    ## Run 19 stress 0.08616061 
+    ## Run 20 stress 0.08043117 
+    ## ... Procrustes: rmse 2.96218e-06  max resid 8.037228e-06 
     ## ... Similar to previous best
     ## *** Best solution repeated 2 times
 

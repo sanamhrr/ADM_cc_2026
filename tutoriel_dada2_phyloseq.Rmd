@@ -1,6 +1,10 @@
 ---
-title: "Tutoriel DADA2 et Phyloseq"
-output: github_document
+   title: "Tutoriel DADA2 et Phyloseq"
+   author: "Mehri Sana"
+   date: "Université de Bretagne Occidentale, Master MFA"
+   output:
+     html_document:
+       css: style.css
 ---
 
 Ce document suit le tutoriel DADA2 appliqué au jeu de données MiSeq SOP (séquençage de l'ARNr 16S). Il va des lectures brutes (FASTQ) jusqu'à l'analyse de la diversité microbienne avec phyloseq.
